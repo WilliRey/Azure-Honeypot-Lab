@@ -15,5 +15,9 @@ Step 4: Create a new Sentinel workspace.
 
 Step 5: Next we RDP to the VM and turn off windows firewall. 
 
-Step 6: Created powershell script to log all failed RDP events and send them to a log file. 
+Step 6: Obtain API Key from IPgeolocation.com and 
+
+Step 7: Created ps1 file and entered Geolocation API Key  to log all failed RDP events and send them to a log file. "script authored by joshmakador1" 
 Custom_Security_Log_Exporter.ps1
+
+Step 8: Failed RDP 
