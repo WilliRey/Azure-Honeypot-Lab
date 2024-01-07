@@ -23,7 +23,7 @@ WilliRey/Azure-Honeypot-Lab/Custom_Security_Log_Exporter.ps1
 
 Step 8: Creat custom log in Log Analytics workspace to bring in RDP log
 (copy the log to local machine from VM)
-WilliRey/Azure-Honeypot-Lab/Screenshot 2024-01-06 200223.png
+![Alt text](<Screensho 2024-01-06 200223.png>)
 
 Step 9: Extract fields from Log entries.
 ![Alt text](<Screenshot 2024-01-06 202114.png>)
@@ -37,4 +37,4 @@ FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitud
 
 
 Step 11: Let the VM run to capture failed RDP logs. These were my results over the span of 24 hrs. 
-WilliRey/Azure-Honeypot-Lab/Screenshot 2024-01-06 202554.png
+![Alt text](<Screenshot 2024-01-06 202554.png>)
